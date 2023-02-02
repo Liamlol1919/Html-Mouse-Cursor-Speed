@@ -77,6 +77,10 @@ a:hover {
   transition-duration: 0.6s;
 }
 
+a{
+  cursor: pointer;
+}
+
 .menu p:hover {
   text-decoration: underline;
   cursor: pointer;
