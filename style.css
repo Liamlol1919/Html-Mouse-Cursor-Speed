@@ -96,6 +96,7 @@ a:hover {
 #under {
   margin-left: 12px;
   background-color: #222823;
+  cursor: pointer;
 }
 
 #box3 {
