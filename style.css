@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 
-body{
+body {
   margin: 0;
   padding: 0;
   background-color: #575A5E;
@@ -15,7 +15,8 @@ body{
   align-items: center;
   background-color: #222823;
   padding: 12px;
-  box-shadow: 0px 0px 5px #00000088;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 0 5px #00000088;
 }
 
 .title {
@@ -23,7 +24,7 @@ body{
   cursor: pointer;
 }
 
-#top{
+#top {
   display: flex;
 }
 
@@ -32,35 +33,26 @@ body{
   cursor: pointer;
 }
 
-#game1{
+#game1, #box3 {
   margin: 15px;
-  box-shadow: 0px 0px 5px #00000088;
-  height: 50vh;
+  box-shadow: 0 0 5px #00000088;
+  height: calc(100vh - 200px);
   display: flex;
   background-color: #222823;
   border-radius: 5px;
 }
 
-#game1 p{
+#game1 p, #game1 #speed {
   padding-left: 12px;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-}
-
-#game1 #speed{
-  padding-left: 12px;
+  user-select: none;
   text-align: center;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.top-bar svg{
+.top-bar svg {
   fill: #F9ECCC;
 }
 
@@ -81,21 +73,31 @@ a:hover{
   flex-direction: column;
   width: 10em;
   align-items: center;
-  box-shadow: 0px 0px 5px #00000088;
+  box-shadow: 0 0 5px #00000088;
   transition-duration: 0.6s;
 }
 
-.menu p:hover{
+.menu p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
 .footer {
   background-color: #222823;
+  border-radius: 0 0 5px 5px;
   text-align: center;
-  box-shadow: 0px 0px 5px #00000088;
-  padding: 15px 0px;
+  box-shadow: 0 0 5px #00000088;
+  padding: 15px 0;
   bottom: 0;
   width: 100%;
   position: fixed;
+}
+
+#under {
+  margin-left: 12px;
+  background-color: #222823;
+}
+
+#box3 {
+  height: 50px;
 }
