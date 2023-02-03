@@ -15,7 +15,6 @@ body {
   align-items: center;
   background-color: #222823;
   padding: 12px;
-  border-radius: 5px 0 5px 0;
   box-shadow: 0 0 5px #00000088;
 }
 
@@ -88,7 +87,6 @@ a{
 
 .footer {
   background-color: #222823;
-  border-radius: 0 0 5px 5px;
   text-align: center;
   box-shadow: 0 0 5px #00000088;
   padding: 15px 0;
