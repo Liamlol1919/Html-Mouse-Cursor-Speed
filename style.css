@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  overscroll-behaviour: contain
   padding: 0;
   background-color: #575A5E;
   font-size: 16px;
