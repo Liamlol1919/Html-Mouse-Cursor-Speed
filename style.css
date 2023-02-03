@@ -36,7 +36,7 @@ body {
 #game1, #box3 {
   margin: 15px;
   box-shadow: 0 0 5px #00000088;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 280px);
   display: flex;
   background-color: #222823;
   border-radius: 5px;
